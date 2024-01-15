@@ -8,5 +8,4 @@ public class CommitTest {
 		System.out.println("local commit test");
 
 	}
-
 }
