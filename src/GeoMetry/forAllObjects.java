@@ -18,10 +18,4 @@ public class forAllObjects {
 	public void setyValue(double yValue) {
 		this.yValue = yValue;
 	}
-	
-	
-	double getArea(double xValue, double yValue) {
-		double area=xValue*yValue;
-		return area;
-	}
 }
