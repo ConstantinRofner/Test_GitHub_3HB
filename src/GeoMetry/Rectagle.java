@@ -1,6 +1,6 @@
 package GeoMetry;
 
-public class Rectagle {
+public class Rectagle extends forAllObjects{
 
 	double length;
 	double height;
@@ -19,9 +19,25 @@ public class Rectagle {
 		this.height = height;
 	}
 	
-	
-	double getCircumference(double lentgh, double heigth) {
+	/**
+	 * calculates the circumference of the rectangle
+	 * @param lentgh
+	 * @param heigth
+	 * @return
+	 */
+	public double getCircumference(double lentgh, double heigth) {
 		double circumference=length*2+heigth*2;
 		return circumference;
+	}
+	
+	/**
+	 * calculates the area of the rectangle
+	 * @param length
+	 * @param heigth
+	 * @return
+	 */
+	public double getArea(double length, double heigth) {
+		double area=length*height;
+		return area;
 	}
 }
