@@ -1,5 +1,6 @@
 package GeoMetry;
 
-public class Triangle {
+public class Triangle extends forAllObjects{
 
+	private double ArraySides[];
 }

@@ -2,7 +2,7 @@ package GeoMetry;
 
 public class Circle extends forAllObjects{
 
-	double radius;
+	private double radius;
 	
 	
 	public double getRadius() {

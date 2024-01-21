@@ -2,8 +2,8 @@ package GeoMetry;
 
 public class forAllObjects {
 
-	double xValue;
-	double yValue;
+	private double xValue;
+	private double yValue;
 	
 	
 	public double getxValue() {

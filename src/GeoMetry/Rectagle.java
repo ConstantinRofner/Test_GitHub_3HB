@@ -2,8 +2,8 @@ package GeoMetry;
 
 public class Rectagle extends forAllObjects{
 
-	double length;
-	double height;
+	private double length;
+	private double height;
 	
 	
 	public double getLength() {
