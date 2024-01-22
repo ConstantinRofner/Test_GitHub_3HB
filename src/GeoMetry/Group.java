@@ -6,7 +6,11 @@ public class Group {
 	
     private ArrayList<Object> objects = new ArrayList<>();
     
-    
+	public Group(ArrayList<Object> objects) {
+		super();
+		this.objects = objects;
+	}
+	
 	public ArrayList<Object> getObjects() {
 		return objects;
 	}

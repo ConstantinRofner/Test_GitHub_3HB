@@ -7,6 +7,18 @@ public class Triangle extends forAllObjects{
 	private double lengthSiteC;
 	private double triangleHeight;
 	
+	public Triangle() {
+		super();
+	}
+	
+	public Triangle(double xValue, double yValue,
+			double lengthSiteA, double lengthSiteB, double lengthSiteC, double triangleHeight) {
+		super(xValue, yValue);
+		this.lengthSiteA = lengthSiteA;
+		this.lengthSiteB = lengthSiteB;
+		this.lengthSiteC = lengthSiteC;
+		this.triangleHeight = triangleHeight;
+	}
 	
 	public double getLengthSiteA() {
 		return lengthSiteA;

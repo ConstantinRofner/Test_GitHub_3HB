@@ -4,6 +4,15 @@ public class Circle extends forAllObjects{
 
 	private double radius;
 	
+	public Circle() {
+		super();
+	}
+	
+	public Circle(double xValue, double yValue, 
+			double radius) {
+		super(xValue, yValue);
+		this.radius = radius;
+	}
 	
 	public double getRadius() {
 		return radius;

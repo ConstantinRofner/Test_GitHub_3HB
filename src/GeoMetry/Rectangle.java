@@ -1,10 +1,20 @@
 package GeoMetry;
 
-public class Rectagle extends forAllObjects{
+public class Rectangle extends forAllObjects{
 
 	private double length;
 	private double height;
 	
+	public Rectangle() {
+		super();
+	}
+	
+	public Rectangle(double xValue, double yValue, 
+			double length, double height) {
+		super(xValue, yValue);
+		this.length = length;
+		this.height = height;
+	}
 	
 	public double getLength() {
 		return length;

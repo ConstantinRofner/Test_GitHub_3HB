@@ -5,6 +5,13 @@ public class forAllObjects {
 	private double xValue;
 	private double yValue;
 	
+	public forAllObjects() {}
+	
+	public forAllObjects(double xValue, double yValue) {
+		super();
+		this.xValue = xValue;
+		this.yValue = yValue;
+	}
 	
 	public double getxValue() {
 		return xValue;
