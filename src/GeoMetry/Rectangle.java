@@ -5,10 +5,6 @@ public class Rectangle extends forAllObjects{
 	private double length;
 	private double height;
 	
-	public Rectangle() {
-		super();
-	}
-	
 	public Rectangle(double xValue, double yValue, 
 			double length, double height) {
 		super(xValue, yValue);
@@ -35,8 +31,9 @@ public class Rectangle extends forAllObjects{
 	 * @param heigth
 	 * @return
 	 */
-	public double getCircumference(double lentgh, double heigth) {
-		double circumference=length*2+heigth*2;
+	@Override
+	public double getCircumference() {
+		double circumference=length*2+height*2;
 		return circumference;
 	}
 	
@@ -46,7 +43,8 @@ public class Rectangle extends forAllObjects{
 	 * @param heigth
 	 * @return
 	 */
-	public double getArea(double length, double heigth) {
+	@Override
+	public double getArea() {
 		double area=length*height;
 		return area;
 	}

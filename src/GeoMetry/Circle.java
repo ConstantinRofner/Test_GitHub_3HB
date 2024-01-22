@@ -4,10 +4,6 @@ public class Circle extends forAllObjects{
 
 	private double radius;
 	
-	public Circle() {
-		super();
-	}
-	
 	public Circle(double xValue, double yValue, 
 			double radius) {
 		super(xValue, yValue);
@@ -26,7 +22,8 @@ public class Circle extends forAllObjects{
 	 * @param radius
 	 * @return
 	 */
-	public double getCircumference(double radius) {
+	@Override
+	public double getCircumference() {
 		double circumference=radius+2*3.14;
 		return circumference;
 	}
@@ -36,7 +33,8 @@ public class Circle extends forAllObjects{
 	 * @param radius
 	 * @return
 	 */
-	public double getArea(double radius) {
+	@Override
+	public double getArea() {
 		double area=3.14*radius*radius;
 		return area;
 	}

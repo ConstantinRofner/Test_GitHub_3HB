@@ -7,10 +7,6 @@ public class Triangle extends forAllObjects{
 	private double lengthSiteC;
 	private double triangleHeight;
 	
-	public Triangle() {
-		super();
-	}
-	
 	public Triangle(double xValue, double yValue,
 			double lengthSiteA, double lengthSiteB, double lengthSiteC, double triangleHeight) {
 		super(xValue, yValue);
@@ -52,7 +48,8 @@ public class Triangle extends forAllObjects{
 	 * @param lengthSiteC
 	 * @return
 	 */
-	public double getCircumference(double lengthSiteA, double lengthSiteB, double lengthSiteC) {
+	@Override
+	public double getCircumference() {
 		double circumference=lengthSiteA+lengthSiteC+lengthSiteC;
 		return circumference;
 	}
@@ -63,7 +60,8 @@ public class Triangle extends forAllObjects{
 	 * @param triangleHeight
 	 * @return
 	 */
-	public double getArea(double lengthSiteC, double triangleHeight) {
+	@Override
+	public double getArea() {
 		double area=(lengthSiteC * triangleHeight)/2;
 		return area;
 	}

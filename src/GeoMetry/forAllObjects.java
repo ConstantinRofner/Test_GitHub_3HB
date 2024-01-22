@@ -1,6 +1,6 @@
 package GeoMetry;
 
-public class forAllObjects {
+public abstract class forAllObjects {
 
 	private double xValue;
 	private double yValue;
@@ -25,4 +25,7 @@ public class forAllObjects {
 	public void setyValue(double yValue) {
 		this.yValue = yValue;
 	}
+	
+	public abstract double getCircumference();
+	public abstract double getArea();
 }

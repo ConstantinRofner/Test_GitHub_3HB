@@ -4,41 +4,45 @@ import java.util.ArrayList;
 
 public class Group {
 	
-    private ArrayList<Object> objects = new ArrayList<>();
+    private ArrayList<forAllObjects> objects;
     
-	public Group(ArrayList<Object> objects) {
-		super();
-		this.objects = objects;
+	public Group() {
+		this.objects = new ArrayList<forAllObjects>();
 	}
 	
-	public ArrayList<Object> getObjects() {
+	public ArrayList<forAllObjects> getObjects() {
 		return objects;
 	}
-	public void setObjects(ArrayList<Object> objects) {
+	public void setObjects(ArrayList<forAllObjects> objects) {
 		this.objects = objects;
 	}
     
-	public void addObject(ArrayList<Object> objects) {
-		objects.add(null);
+	public void addObject(forAllObjects o) {
+		this.objects.add(o);
 	}
 	
-	public void deleteObject(ArrayList<Object> objects) {
-		objects.remove(null);
+	public void deleteObject(forAllObjects o) {
+		objects.remove(o);
 	}
 	
-	public void getAreaOfAllObjects(ArrayList<Object> objects) {
+    public double getAreaOfAllObjects() {
+        double totalArea = 0.0;
+        for (forAllObjects o : objects) {
+            totalArea += o.getArea();
+        }
+        return totalArea;
+    }
+	
+	public double getCirumferenceOfAllObjects() {
+		return 0;
 		
 	}
 	
-	public void getCirumferenceOfAllObjects() {
+	public void biggestAreaObject() {
 		
 	}
 	
-	public void biggestObject() {
-		
-	}
-	
-	public void printOutAllObjects() {
+	public void printOutAllObjects(forAllObjects o) {
 		
 	}
 }
