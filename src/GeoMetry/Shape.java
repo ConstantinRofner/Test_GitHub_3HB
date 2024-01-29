@@ -28,7 +28,7 @@ public abstract class Shape {
 	
 	
 	public String toString() {
-		return "X-Koordinate der Form: " + this.xValue + "\n Y-Koordinate der Form: " + this.xValue;
+		return "X-Koordinate der Form: " + this.xValue + "\nY-Koordinate der Form: " + this.xValue;
 	}
 
 	public abstract double getCircumference();
