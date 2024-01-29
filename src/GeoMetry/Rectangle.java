@@ -48,4 +48,8 @@ public class Rectangle extends Shape{
 		double area=length*height;
 		return area;
 	}
+
+	public String toString() {
+		return "Länge der Form: " + this.length + "\nHöhe der Form: " + this.height;
+	}
 }
