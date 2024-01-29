@@ -38,4 +38,8 @@ public class Circle extends Shape{
 		double area=3.14*radius*radius;
 		return area;
 	}
+
+	public String toString() {
+		return "Radius des Kreises: " + this.radius;
+	}
 }
