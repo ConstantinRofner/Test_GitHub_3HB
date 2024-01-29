@@ -26,6 +26,11 @@ public abstract class Shape {
 		this.yValue = yValue;
 	}
 	
+	
+	public String toString() {
+		return "X-Koordinate der Form: " + this.xValue + "\n Y-Koordinate der Form: " + this.xValue;
+	}
+
 	public abstract double getCircumference();
 	public abstract double getArea();
 }
