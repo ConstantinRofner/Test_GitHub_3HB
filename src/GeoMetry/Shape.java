@@ -1,13 +1,13 @@
 package GeoMetry;
 
-public abstract class forAllObjects {
+public abstract class Shape {
 
 	private double xValue;
 	private double yValue;
 	
-	public forAllObjects() {}
+	public Shape() {}
 	
-	public forAllObjects(double xValue, double yValue) {
+	public Shape(double xValue, double yValue) {
 		super();
 		this.xValue = xValue;
 		this.yValue = yValue;

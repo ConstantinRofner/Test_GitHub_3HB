@@ -1,6 +1,6 @@
 package GeoMetry;
 
-public class Triangle extends forAllObjects{
+public class Triangle extends Shape{
 
 	private double lengthSiteA;
 	private double lengthSiteB; 

@@ -1,6 +1,6 @@
 package GeoMetry;
 
-public class Circle extends forAllObjects{
+public class Circle extends Shape{
 
 	private double radius;
 	

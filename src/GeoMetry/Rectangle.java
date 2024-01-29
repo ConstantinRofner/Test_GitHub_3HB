@@ -1,6 +1,6 @@
 package GeoMetry;
 
-public class Rectangle extends forAllObjects{
+public class Rectangle extends Shape{
 
 	private double length;
 	private double height;
