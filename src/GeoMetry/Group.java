@@ -53,7 +53,7 @@ public class Group {
 	
 	public void printOutAllObjects() {
 		for (Shape o : objects) {
-			o.
+			o.toString();
 		}
 	}
 }
