@@ -65,4 +65,13 @@ public class Triangle extends Shape{
 		double area=(lengthSiteC * triangleHeight)/2;
 		return area;
 	}
+
+	public String toString() {
+		return "Länge A-Seite des Dreiecks: " + this.lengthSiteA + 
+				"\nLänge B-Seite der Form: " + this.lengthSiteB +
+				"\nLänge C-Seite der Form: " + this.lengthSiteC +
+				"\nHöhe des Dreiecks: " + this.triangleHeight;
+	}
+	
+	
 }
