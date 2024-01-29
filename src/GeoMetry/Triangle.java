@@ -68,8 +68,8 @@ public class Triangle extends Shape{
 
 	public String toString() {
 		return "Länge A-Seite des Dreiecks: " + this.lengthSiteA + 
-				"\nLänge B-Seite der Form: " + this.lengthSiteB +
-				"\nLänge C-Seite der Form: " + this.lengthSiteC +
+				"\nLänge B-Seite des Dreiecks: " + this.lengthSiteB +
+				"\nLänge C-Seite des Dreiecks: " + this.lengthSiteC +
 				"\nHöhe des Dreiecks: " + this.triangleHeight;
 	}
 }
