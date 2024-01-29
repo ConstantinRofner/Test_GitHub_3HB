@@ -72,6 +72,4 @@ public class Triangle extends Shape{
 				"\nLänge C-Seite der Form: " + this.lengthSiteC +
 				"\nHöhe des Dreiecks: " + this.triangleHeight;
 	}
-	
-	
 }

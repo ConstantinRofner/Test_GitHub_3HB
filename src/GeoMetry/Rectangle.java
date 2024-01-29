@@ -50,6 +50,6 @@ public class Rectangle extends Shape{
 	}
 
 	public String toString() {
-		return "Länge der Form: " + this.length + "\nHöhe der Form: " + this.height;
+		return "Länge des Rechtecks: " + this.length + "\nHöhe des Rechtecks: " + this.height;
 	}
 }
