@@ -34,4 +34,9 @@ public class PhotoCast extends News{
 			  "\t Filename: " + this.photoFileName + "\n" + 
 			  "\t Headline: " + this.photoHeadline + "\n";
 	}
+	
+	@Override
+	public void addLikes() {
+		this.setLikes(getLikes()+1);
+	}
 }
