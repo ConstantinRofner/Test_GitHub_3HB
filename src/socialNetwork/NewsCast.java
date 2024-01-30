@@ -21,5 +21,8 @@ public class NewsCast extends News{
 		this.textMessage = textMessage;
 	}
 	
-	
+	public String toString() {
+		return super.toString() + 
+			"\t Nachricht: " + this.textMessage + "\n";
+	}
 }
