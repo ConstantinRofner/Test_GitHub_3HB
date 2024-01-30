@@ -18,12 +18,20 @@ public class NewsFeed {
 	}
 	
 	/**
-	 *method adds all news to the ArrayList<News> 
+	 *Method adds all news to the ArrayList<News> 
 	 * @param n
 	 */
 	public void add(News n) {
 		if (!this.news.contains(n)) {
 			this.news.add(n);
 		}
+	}
+	
+	/**
+	 * Method removes those News from the ArrayList<News>
+	 * @param n
+	 */
+	public void remove(News n) {
+		this.news.remove(n);
 	}
 }
