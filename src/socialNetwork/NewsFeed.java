@@ -17,4 +17,13 @@ public class NewsFeed {
 		this.news = news;
 	}
 	
+	/**
+	 *method adds all news to the ArrayList<News> 
+	 * @param n
+	 */
+	public void add(News n) {
+		if (!this.news.contains(n)) {
+			this.news.add(n);
+		}
+	}
 }
