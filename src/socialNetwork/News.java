@@ -10,7 +10,6 @@ public abstract class News {
 	private int likes;
 	private ArrayList <String> comments;
 	
-	
 	public String getAuthor() {
 		return author;
 	}
@@ -36,4 +35,11 @@ public abstract class News {
 		this.comments = comments;
 	}
 	
+	public String toString() {
+		return "Beitrag: \n" + 
+				"\t Benutzername des Autors: " + this.author + "\n" +
+				"\t Zeitstempel: " + this.timestamp + "\n" +
+				"\t Anzahl Likes: " + this.likes + "\n" +
+				"\t Kommentare: " + this.comments + "\n";
+	}
 }
