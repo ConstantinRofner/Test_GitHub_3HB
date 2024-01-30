@@ -9,4 +9,12 @@ public class NewsFeed {
 	public NewsFeed() {
 		this.news = new ArrayList<News>();
 	}
+	
+	public ArrayList<News> getNews() {
+		return news;
+	}
+	public void setNews(ArrayList<News> news) {
+		this.news = news;
+	}
+	
 }
