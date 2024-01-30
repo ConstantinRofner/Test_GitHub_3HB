@@ -5,11 +5,11 @@ public class Test {
 	public static void main(String[] args) {
 		Group g = new Group();
 		
-		Shape r1 = new Rectangle(1, 1, 2, 4);
+		Shape r1 = new Rectangle(1, 1, 3, 4);
 		Shape c1 = new Circle (2, 2, 5);
 		Shape t1 = new Triangle(3, 3, 2, 3, 4, 5);
-		Shape r2 = new Rectangle(5, 5, 3, 6);
-		Shape r3 = new Rectangle(4, 3, 6, 9);
+		Shape r2 = new Rectangle(5, 5, 4, 5);
+		Shape r3 = new Rectangle(4, 3, 7, 8);
 		
 		//Funktionen um den Code zu testen:
 		System.out.println(r1);
