@@ -7,4 +7,12 @@ public class NewsCast extends News{
 	public NewsCast(String author, String textMessage) {
 		this.setAuthor(author);
 	}
+
+	public String getTextMessage() {
+		return textMessage;
+	}
+	public void setTextMessage(String textMessage) {
+		this.textMessage = textMessage;
+	}
+	
 }
