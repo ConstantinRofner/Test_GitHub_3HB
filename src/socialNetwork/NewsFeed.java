@@ -73,4 +73,18 @@ public class NewsFeed {
 		}
 		System.out.println(searchNews);
 	}
+	
+	/**
+	 * 
+	 * @param author
+	 */
+	public void searchPhotos(String author) {
+		ArrayList <News> searchphotos = new ArrayList<News>();
+		for (News n : this.news) {
+			if (n.getAuthor().equals(author) && n instanceof PhotoCast) {
+				searchphotos.add(n);
+			}
+		}
+		System.out.println(searchphotos);
+	}
 }
