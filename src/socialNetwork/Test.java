@@ -25,5 +25,10 @@ public class Test {
 		
 		//searches for "Constantin"
 		nf.search("Constantin");
+		
+		//searches for "Constantin" and then prints it all out
+		nf.searchNews("Constantin");
+		nf.searchPhotos("Constantin");
+		nf.print();
 	}
 }
