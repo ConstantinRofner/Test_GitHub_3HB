@@ -37,7 +37,7 @@ public class PhotoCast extends News{
 	}
 	
 	@Override
-	public void addLikes() {
+	public void increaseLikes() {
 		this.setLikes(getLikes()+1);
 	}
 }
