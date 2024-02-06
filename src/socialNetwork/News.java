@@ -42,4 +42,9 @@ public abstract class News {
 				"\t Anzahl Likes: " + this.likes + "\n" +
 				"\t Kommentare: " + this.comments + "\n";
 	}
+	
+	public abstract void addLikes();
+	public void addCommentary(String comment) {
+		this.comments.add(comment);
+	}
 }
