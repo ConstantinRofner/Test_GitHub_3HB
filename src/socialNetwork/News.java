@@ -10,6 +10,18 @@ public abstract class News {
 	private int likes;
 	private ArrayList <String> comments;
 	
+	
+	public News(String author, LocalDate timestamp, int likes, ArrayList<String> comments) {
+		this.author = author;
+		this.timestamp = timestamp;
+		this.likes = likes;
+		this.comments = comments;
+	}
+	
+	public News() {
+		this.comments = new ArrayList<String>();
+	}
+	
 	public String getAuthor() {
 		return author;
 	}
