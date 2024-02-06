@@ -13,9 +13,9 @@ public class Test {
 		nf.add(p);
 		
 		//increases the amount of likes
-		n.addLikes();
-		p.addLikes();
-		p.addLikes();
+		n.increaseLikes();
+		p.increaseLikes();
+		p.increaseLikes();
 		
 		//adds three comments, which contain the String
 		String comment = "XYZ";
