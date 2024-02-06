@@ -8,14 +8,21 @@ public class Test {
 		News n = new NewsCast("Constantin", "TESTTEXT TESTTEXT");
 		News p = new PhotoCast("Constantin", "image1.png", "Class Photo");
 		
-		//Hinzufügen zu News
+		//gets added to News
 		nf.add(n);
 		nf.add(p);
 		
-		//Erhöhen der Like-Anzahl
+		//increases the amount of likes
 		n.addLikes();
 		p.addLikes();
 		p.addLikes();
+		
+		//adds three comments, which contain the String
+		String comment = "XYZ";
+		p.addCommentary(comment);
+		p.addCommentary(comment);
+		n.addCommentary(comment);
+
 	}
 
 }
