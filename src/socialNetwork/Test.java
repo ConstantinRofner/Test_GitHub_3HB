@@ -18,7 +18,7 @@ public class Test {
 		p.increaseLikes();
 		
 		//adds three comments, which contain the String
-		String comment = "XYZ";
+		String comment = "Comment Comment";
 		p.addCommentary(comment);
 		p.addCommentary(comment);
 		n.addCommentary(comment);
