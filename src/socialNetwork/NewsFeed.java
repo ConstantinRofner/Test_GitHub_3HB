@@ -39,6 +39,13 @@ public class NewsFeed {
 	 * Method searches for all authors who are in the ArrayList
 	 * @param author
 	 */
+	
+	public void print() {
+		for (News n : this.news) {
+			System.out.println(n);
+		}
+	}
+	
 	public void search(String author) {
 		ArrayList <News> searchByAuthor = new ArrayList<News>();
 		for (News n : this.news) {
