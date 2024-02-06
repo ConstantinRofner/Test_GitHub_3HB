@@ -22,7 +22,8 @@ public class Test {
 		p.addCommentary(comment);
 		p.addCommentary(comment);
 		n.addCommentary(comment);
-
+		
+		//searches for "Constantin"
+		nf.search("Constantin");
 	}
-
 }
