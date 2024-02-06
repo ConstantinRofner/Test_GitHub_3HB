@@ -7,6 +7,10 @@ public class Test {
 		
 		News n = new NewsCast("Constantin", "TESTTEXT TESTTEXT");
 		News p = new PhotoCast("Constantin", "image1.png", "Class Photo");
+		
+		nf.add(n);
+		nf.add(p);
+		
 	}
 
 }
