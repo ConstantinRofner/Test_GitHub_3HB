@@ -1,6 +1,7 @@
 package socialNetwork;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 
 public class PhotoCast extends News{
 
@@ -11,7 +12,7 @@ public class PhotoCast extends News{
 		this.setAuthor(author);
 		this.setTimestamp(LocalDate.now());
 		this.setLikes(0);
-		this.setComments(null);
+		this.setComments(new ArrayList <String>());
 		this.photoFileName = photoFileName;
 		this.photoHeadline = photoHeadline;
 	}
