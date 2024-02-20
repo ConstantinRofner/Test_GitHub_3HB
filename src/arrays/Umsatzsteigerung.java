@@ -9,6 +9,7 @@ public class Umsatzsteigerung {
 			int count=0;
 			if(this.dailyGains.length < 2) {
 				System.out.println("Es sind zu wenig Zahlen für eine Berechnung vorhanden.");
+				}else {
 				for(int i=0; i<30; i++) {
 					for(int j=1; j<29; j++) {
 						if((dailyGains[i] * 1.05) >= dailyGains[j]) {
