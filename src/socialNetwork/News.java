@@ -1,6 +1,6 @@
 package socialNetwork;
 
-import java.time.LocalDate; 
+import java.time.LocalDate;
 import java.util.ArrayList;
 
 public abstract class News {
