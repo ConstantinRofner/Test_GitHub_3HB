@@ -11,11 +11,13 @@ public class PictureZoom {
 		for(int i=0; i<matrix.length; i++) {
 			for(int j=0; j<matrix[0].length; j++) {
 				matrix[i][j] = matrix[i][j]*factor;
+				
 			}
 		}
+		return matrix;
 	}
 	
 	public static void main(String[] args) {		
-
+		
 	}
 }
