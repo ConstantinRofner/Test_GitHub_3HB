@@ -26,5 +26,11 @@ public class LinkedListTester {
 				iterator.remove();
 			}
 		}
+		//Iterator muss wieder zurückgesetzt werden
+		//Iterator muss wieder an den Anfang der Liste gesetzt werden
+		iterator = list.iterator();
+		while(iterator.hasNext()) {
+			System.out.println(iterator.next());
+		}
 	}
 }
