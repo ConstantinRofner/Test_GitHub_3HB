@@ -2,10 +2,13 @@ package musicalChairs;
 
 import java.util.List;
 
-public class MusicalChairsGame {
+public class MusicalChair {
 
 	private List<String> names;
 
+	public MusicalChair(String... names) {
+		
+	}
 	
 	public List<String> getNames() {
 		return names;
