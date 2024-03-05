@@ -10,7 +10,7 @@ public class MusicalChairsGame {
 		MusicalChair mc2 = new MusicalChair("Madeleine", "Benedikt");
 		System.out.println(mc2);
 		
-		MusicalChair mc3 = new MusicalChair();
-		System.out.println(mc3);
+		//MusicalChair mc3 = new MusicalChair();
+		//System.out.println(mc3);
 	}
 }
