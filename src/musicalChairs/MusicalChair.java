@@ -1,6 +1,7 @@
 package musicalChairs;
 
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -27,7 +28,11 @@ public class MusicalChair {
 	}
 	
 	public String toString() {
-		
+		Iterator <String> itr = this.names.iterator();
+		String tmp = "";
+		while(itr.hasNext()) {
+			tmp = tmp + itr.next() + ", ";
+		}
+		return tmp;
 	}
-	
 }
