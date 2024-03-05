@@ -15,11 +15,16 @@ public class LinkedListTester {
 		list.add(3);
 		
 		Collections.rotate(list, 2);
+		
 		//"Laufvariable" zum Iterieren einer Datenstruktur
 		//läuft immer vom Anfang bis zum Ende
 		Iterator<Integer> iterator = list.iterator();
 		while(iterator.hasNext()) {
-			System.out.println(iterator.next());
+			//System.out.println(iterator.next());
+			if(iterator.next() == 3) {
+				//System.out.println("Found 3");
+				iterator.remove();
+			}
 		}
 	}
 }
