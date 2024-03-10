@@ -11,8 +11,6 @@ public class MusicalChairsGame {
 		System.out.println(mc2);
 		
 		//MusicalChair mc3 = new MusicalChair();
-		//System.out.println(mc3);
-		
-		hgfhjgfjhgf
+		//System.out.println(mc3);		
 	}
 }
