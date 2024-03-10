@@ -12,5 +12,7 @@ public class MusicalChairsGame {
 		
 		//MusicalChair mc3 = new MusicalChair();
 		//System.out.println(mc3);
+		
+		hgfhjgfjhgf
 	}
 }
