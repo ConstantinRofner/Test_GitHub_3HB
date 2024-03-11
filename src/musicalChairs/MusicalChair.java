@@ -49,9 +49,11 @@ public class MusicalChair {
 	
 	public String play() {
 		if(!this.names.isEmpty()) {
-			int randomNumber = ThreadLocalRandom.current().nextInt();
-			this.rotateAndRemove(randomNumber);
-			System.out.println(this.names);
+			while(this.names.size() > 1) {
+				int randomNumber = ThreadLocalRandom.current().nextInt();
+				this.rotateAndRemove(randomNumber);
+				System.out.println(this.names);
+			}
 		}
 		//optional
 		return this.names.get(0);
