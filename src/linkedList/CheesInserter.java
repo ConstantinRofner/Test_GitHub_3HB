@@ -1,6 +1,7 @@
 package linkedList;
 
 import java.util.List;
+import java.util.ListIterator;
 import java.util.regex.Pattern;
 
 public class CheesInserter {
@@ -10,7 +11,12 @@ public class CheesInserter {
 			);
 	
 	public static void insertCheeseAroundVegetable(List<String> ingredients) {
-		
+		//Initialisierung Laufvariable
+		//Abbruchbedingung (hasNext())
+		//keine Inkrementierung -> passiert im Schleifenkörper
+		for(ListIterator<String> iterator = ingredients.listIterator();iterator.hasNext();) {
+			
+		}
 	}
 	public static void main(String[] args) {
 		
