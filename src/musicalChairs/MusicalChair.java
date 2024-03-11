@@ -57,6 +57,5 @@ public class MusicalChair {
 		}
 		//optional
 		return this.names.get(0);
-	}
-	
-	}
+	}	
+}
