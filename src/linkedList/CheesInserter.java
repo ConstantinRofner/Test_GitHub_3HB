@@ -15,7 +15,7 @@ public class CheesInserter {
 		//Abbruchbedingung (hasNext())
 		//keine Inkrementierung -> passiert im Schleifenkörper
 		for(ListIterator<String> iterator = ingredients.listIterator();iterator.hasNext();) {
-			
+			String ingredient = iterator.next();
 		}
 	}
 	public static void main(String[] args) {
