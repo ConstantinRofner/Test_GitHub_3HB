@@ -13,4 +13,13 @@ public class ArrayQueue {
 		capacity = size;
 		queue = new int[size];
 	}
+	
+	public static void queueEnqueue(int item) {
+		if(rear == capacity) {
+			System.out.println("Queue ist voll.");
+		}else {
+			queue[rear]=item;
+			rear++;
+		}
+	}
 }
