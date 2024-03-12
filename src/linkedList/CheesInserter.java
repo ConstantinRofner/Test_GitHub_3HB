@@ -21,6 +21,8 @@ public class CheesInserter {
 		//keine Inkrementierung -> passiert im Schleifenkörper
 		for(ListIterator<String> iterator = ingredients.listIterator();iterator.hasNext();) {
 			String ingredient = iterator.next();
+			//matcher -> wird verwendet, um ingredient in unserem Muster zu finden
+			//matches() -> für den direkten Vergleich
 			if(vegetables.matcher(ingredient).matches()) {
 				iterator.add("Käse");
 			}
@@ -28,7 +30,7 @@ public class CheesInserter {
 	}
 	public static void main(String[] args) {
 		List<String>ingredients = new LinkedList<String>();
-		Collections.addAll(ingredients, "Gnocchi", "Paprika", "Tomate", "Pfeffer", "Melanzani");
+		Collections.addAll(ingredients, "Gnocchi", "Paprika", "Tomaten", "Pfeffer", "Melanzani");
 		insertCheeseAroundVegetable(ingredients);
 		System.out.println(ingredients);
 	}
