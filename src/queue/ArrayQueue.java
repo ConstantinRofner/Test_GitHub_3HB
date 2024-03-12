@@ -22,4 +22,14 @@ public class ArrayQueue {
 			rear++;
 		}
 	}
+	
+	public static int queueDequeue() {
+		if(rear == front) {
+			System.out.println("Queue ist leer.");
+		}else {
+			int firstElement = queue[front];
+			
+		}
+		
+	}
 }
