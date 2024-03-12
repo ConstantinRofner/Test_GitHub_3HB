@@ -1,6 +1,5 @@
 package linkedList;
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
@@ -30,7 +29,7 @@ public class CheesInserter {
 		}
 	}
 	public static void main(String[] args) {
-		List<String>ingredients = new ArrayList<String>();
+		List<String>ingredients = new LinkedList<String>();
 		Collections.addAll(ingredients, "Gnocchi", "Paprika", "Tomaten", "Pfeffer", "Melanzani");
 		insertCheeseAroundVegetable(ingredients);
 		System.out.println(ingredients);
