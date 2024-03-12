@@ -19,6 +19,9 @@ public class CheesInserter {
 		//keine Inkrementierung -> passiert im Schleifenkörper
 		for(ListIterator<String> iterator = ingredients.listIterator();iterator.hasNext();) {
 			String ingredient = iterator.next();
+			if(vegetables.matcher(ingredient).matches()) {
+				iterator.add("Käse");
+			}
 		}
 	}
 	public static void main(String[] args) {
