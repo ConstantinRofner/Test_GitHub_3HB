@@ -12,7 +12,7 @@ public class CheesInserter {
 	//static - von der Klasse abhängig und nicht vom Object
 	//final - Variable nach Initialisierung unveränderbar
 	private static final Pattern vegetables = Pattern.compile(
-			"Zuchini|Paprikas?|Zwiebeln?|Tomaten?"
+			"Zuchini|Paprikas?|Zwiebeln?|Tomaten?|Melanzani"
 			);
 	
 	public static void insertCheeseAroundVegetable(List<String> ingredients) {
@@ -28,7 +28,7 @@ public class CheesInserter {
 	}
 	public static void main(String[] args) {
 		List<String>ingredients = new LinkedList<String>();
-		Collections.addAll(ingredients, "Gnocchi", "Paprike", "Tomate", "Pfeffer");
+		Collections.addAll(ingredients, "Gnocchi", "Paprika", "Tomate", "Pfeffer", "Melanzani");
 		insertCheeseAroundVegetable(ingredients);
 		System.out.println(ingredients);
 	}
