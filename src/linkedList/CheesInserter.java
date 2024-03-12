@@ -5,7 +5,10 @@ import java.util.ListIterator;
 import java.util.regex.Pattern;
 
 public class CheesInserter {
-
+	
+	//private - Sichtbarkeitsbereich auf Klassen beschränkt
+	//static - von der Klasse abhängig und nicht vom Object
+	//final - Variable nach Initialisierung unveränderbar
 	private static final Pattern vegetables = Pattern.compile(
 			"Zuchini|Paprikas?|Zwiebeln?|Tomaten?"
 			);
