@@ -1,5 +1,7 @@
 package linkedList;
 
+import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
 import java.util.regex.Pattern;
@@ -25,6 +27,9 @@ public class CheesInserter {
 		}
 	}
 	public static void main(String[] args) {
-		
+		List<String>ingredients = new LinkedList<String>();
+		Collections.addAll(ingredients, "Gnocchi", "Paprike", "Tomate", "Pfeffer");
+		insertCheeseAroundVegetable(ingredients);
+		System.out.println(ingredients);
 	}
 }
