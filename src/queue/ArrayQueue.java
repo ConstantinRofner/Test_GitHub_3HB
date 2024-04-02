@@ -28,8 +28,10 @@ public class ArrayQueue {
 			System.out.println("Queue ist leer.");
 		}else {
 			int firstElement = queue[front];
-			
+			//TODO Elemente im Array verrücken
+			for(int i=0; i<(rear-1); i++) {
+				
+			}
 		}
-		
 	}
 }
