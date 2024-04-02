@@ -40,4 +40,8 @@ public class ArrayQueue {
 		}
 		return firstElement;
 	}
+	
+	public static void queueDisplay() {
+		
+	}
 }
