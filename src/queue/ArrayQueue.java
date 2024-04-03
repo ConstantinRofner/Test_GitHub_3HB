@@ -61,4 +61,8 @@ public class ArrayQueue {
 		}
 		return firstElement;
 	}
+	
+	//HÜ: ArrayQueueTest - alle Methoden von ArrayQueue testen
+	//		JavaDoc-Kommentare
+	//		Kapitel 5 nochmals durcharbeiten
 }
