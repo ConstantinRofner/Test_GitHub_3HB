@@ -7,6 +7,10 @@ public class ArrayQueue {
 	private static int capacity;
 	private static int[] queue;
 	
+	/**
+	 * Method creates an ArrayQueue which is empty
+	 * @param size
+	 */
 	public ArrayQueue(int size) {
 		front = 0;
 		rear = 0;
@@ -14,7 +18,11 @@ public class ArrayQueue {
 		queue = new int[size];
 	}
 	
-	public static void queueEnqueue(int item) {
+	/**
+	 * method adds an item at the rear
+	 * @param item
+	 */
+	public void queueEnqueue(int item) {
 		if(rear == capacity) {
 			System.out.println("Queue ist voll.");
 		}else {
@@ -23,7 +31,11 @@ public class ArrayQueue {
 		}
 	}
 	
-	public static int queueDequeue() {
+	/**
+	 * method deletes the element at the rear and pushes the other forward
+	 * @return
+	 */
+	public int queueDequeue() {
 		int firstElement = 0;
 		if(rear == front) {
 			System.out.println("Queue ist leer.");
@@ -41,7 +53,10 @@ public class ArrayQueue {
 		return firstElement;
 	}
 	
-	public static void queueDisplay() {
+	/**
+	 * method prints out the whole ArrayQueue
+	 */
+	public void queueDisplay() {
 		if(front == rear) {
 			System.out.println("Queue is empty");
 		}else {
@@ -51,7 +66,11 @@ public class ArrayQueue {
 		}
 	}
 	
-	public static int queueFront() {
+	/**
+	 * method calculates which element is the one at the front
+	 * @return
+	 */
+	public int queueFront() {
 		int firstElement = 0;
 		//TODO erstes Element ohne Löschen zurückgeben
 		if(front == rear) {
@@ -61,8 +80,4 @@ public class ArrayQueue {
 		}
 		return firstElement;
 	}
-	
-	//HÜ: ArrayQueueTest - alle Methoden von ArrayQueue testen
-	//		JavaDoc-Kommentare
-	//		Kapitel 5 nochmals durcharbeiten
 }
