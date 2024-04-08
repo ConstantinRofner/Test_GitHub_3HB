@@ -1,16 +1,15 @@
 package queue;
 
-public class ArrayQueueTest{
-	
-	public static void main(String[] args) {
-	
-		ArrayQueue ArrayQueue = new ArrayQueue(5);
+public class ArrayQueueTest
+{
+    public static void main(String[] args) {
+    	
+        ArrayQueue arrayQueue = new ArrayQueue(5);
 
-		ArrayQueue.queueEnqueue(2);
-		ArrayQueue.queueEnqueue(5);
-		
-		ArrayQueue.queueFront();
-		ArrayQueue.queueDequeue();
-		ArrayQueue.queueDisplay();
-	}
+        arrayQueue.queueEnqueue(2);
+        arrayQueue.queueEnqueue(5);
+
+        arrayQueue.queueDequeue();
+        arrayQueue.queueDisplay();
+    }
 }
