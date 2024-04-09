@@ -2,7 +2,7 @@ package stack;
 
 public class Stack {
 
-	private String input;
+	private String input = "Hallo";
 	private int front;
 	private int capcity;
 	private int[] stack;
@@ -85,8 +85,8 @@ public class Stack {
 	}
 	
 	public void flip() {
-		if(!isEmpty()) {
-			
+		if(!isEmpty() && (this.input == null)) {
+			;
 		}
 	}
 	
