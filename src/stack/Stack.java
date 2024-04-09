@@ -6,6 +6,7 @@ public class Stack {
 	private int front;
 	private int capcity;
 	private int[] stack;
+	private int capacity;
 	
 	public Stack(int capacity) {
 		this.front=-1;
@@ -47,6 +48,14 @@ public class Stack {
 		return false;
 	}
 	
+	public boolean isFull() {
+		if(this.front == (capacity-1)){
+			return true;
+		}
+		return false;
+	}
+	
+	public void push(int)
 	public void flip() {
 		if(!isEmpty()) {
 			
