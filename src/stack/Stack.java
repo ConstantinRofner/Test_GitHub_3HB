@@ -63,6 +63,15 @@ public class Stack {
 			System.out.println("stack is full.");
 		}
 	}
+	
+	public void pop() {
+		if(!isEmpty()) {
+			this.stack[this.front]=0;
+			this.front--;
+		}else {
+			System.out.println("stack is empty.");
+		}
+	}
 	public void flip() {
 		if(!isEmpty()) {
 			
