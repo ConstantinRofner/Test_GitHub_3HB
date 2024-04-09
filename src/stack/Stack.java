@@ -55,7 +55,14 @@ public class Stack {
 		return false;
 	}
 	
-	public void push(int)
+	public void push(int element) {
+		if(!isFull()) {
+			this.front++;
+			this.stack[this.front] = element;
+		}else {
+			System.out.println("stack is full.");
+		}
+	}
 	public void flip() {
 		if(!isEmpty()) {
 			
