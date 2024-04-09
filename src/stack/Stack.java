@@ -82,12 +82,5 @@ public class Stack {
 	
 	public int size() {
 		return this.front;
-	}
-	
-	public void flip() {
-		if(!isEmpty() && (this.input == null)) {
-			;
-		}
-	}
-	
+	}	
 }
