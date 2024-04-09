@@ -72,6 +72,18 @@ public class Stack {
 			System.out.println("stack is empty.");
 		}
 	}
+	
+	public int peek() {
+		if(isEmpty()) {
+			return this.stack[this.front];
+		}
+		return -1;
+	}
+	
+	public int size() {
+		return this.front;
+	}
+	
 	public void flip() {
 		if(!isEmpty()) {
 			
