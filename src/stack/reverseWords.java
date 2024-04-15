@@ -24,11 +24,11 @@ public class reverseWords {
         /**
          * creates an String which saves the letters in the reversed order
          */
-        StringBuilder reversedString = new StringBuilder();
+        StringBuilder reverseString = new StringBuilder();
         while (!stack.isEmpty()) {
-            reversedString.append(stack.pop());
+            reverseString.append(stack.pop());
         }
-        return reversedString.toString();
+        return reverseString.toString();
     }
 
     public static void main(String[] args) {
