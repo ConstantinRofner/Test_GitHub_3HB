@@ -3,7 +3,7 @@ package stack;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class reverseWords {
+public class ReverseWords {
 	
 	/**
 	 * methods contains other methods which reverse the string
