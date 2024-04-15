@@ -18,6 +18,10 @@ public class CorrectClamping {
         for (char c : input.toCharArray()) {
             stack.push(c);
         }
+        
+        System.out.println("Korrekte Klammerung");
+        
+        System.out.println("Fehlerhaft Klammerung");
 	}
 	
     public static void main(String[] args) {
