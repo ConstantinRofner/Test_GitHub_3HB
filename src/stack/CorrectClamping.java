@@ -1,5 +1,6 @@
 package stack;
 
+import java.util.Scanner;
 import java.util.Stack;
 
 public class CorrectClamping {
@@ -20,6 +21,8 @@ public class CorrectClamping {
 	}
 	
     public static void main(String[] args) {
-    	
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Geben Sie einen Code ein, welcher überprüft werden soll:");
+        String input = scanner.nextLine();
     }
 }
