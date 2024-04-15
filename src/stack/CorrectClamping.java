@@ -9,7 +9,7 @@ public class CorrectClamping {
 		int roundOpenBrackets = 0;
 		int roundClosedBrackets = 0;
 		int curvedOpenBrackets = 0;
-		int curvedClosedBrackets =0;
+		int curvedClosedBrackets = 0;
 		int squareOpenBrackets = 0;
 		int squareClosedBrackets = 0;
 		
