@@ -2,13 +2,14 @@ package rekursion;
 
 public class Faculty {
 
-	public static int Faculty(int n) {
-		if(n <= 1) {
-			return n;
+	public static int calculateFaculty(int n) {
+		if(n == 0) {
+			return 1;
 		}else {
-			
+			return n * calculateFaculty(n-1);
 		}
 	}
+	
 	public static void main(String[] args) {
 
 	}
