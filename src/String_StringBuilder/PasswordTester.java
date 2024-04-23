@@ -14,8 +14,12 @@ public class PasswordTester {
 	              password.matches(digit) &&
 	              password.matches(specialCharacters)) {
 	              return true;
+	          } else {
+	              System.err.println("Password ist zu schwach!");
+	              return false;
 	          }
 	      }
+	
 	public static void main(String[] args) {
 		
 	}
