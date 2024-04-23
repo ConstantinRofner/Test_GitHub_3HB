@@ -1,6 +1,6 @@
 package String_StringBuilder;
 
-public class CheckPassword {
+public class PasswordTester {
 
 	public static void main(String[] args) {
 		
