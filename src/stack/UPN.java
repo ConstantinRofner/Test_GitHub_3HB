@@ -22,15 +22,18 @@ public class UPN {
 			}else if(operatorMatcher.matches()){
 				int operand1 = stack.pop();
 				int operand2 = stack.pop();
-				int result;
+				int result=0;
 				switch(token) {
-				case "+": result = operand1 + operand2; break;
-				case "-": result = operand1 - operand2; break;
-				case "*": result = operand1 * operand2; break;
-				case "/": result = operand1 / operand2; break
+					case "+": result = operand1 + operand2; break;
+					case "-": result = operand1 - operand2; break;
+					case "*": result = operand1 * operand2; break;
+					case "/": result = operand1 / operand2; break;
+					default: System.out.println("Falscher Operator");
 				}
+				stack.push(result);
 			}
 		}
+		return stack.pop();
 	}
 	
 	public static void main(String[] args) {
