@@ -8,7 +8,14 @@ public class PasswordTester {
 	      String digit = "\\d";
 	      String specialCharacters = " !\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~";
 	      
-	}
+	      if (password.matches(length) &&
+	              password.matches(uppercase) &&
+	              password.matches(lowercase) &&
+	              password.matches(digit) &&
+	              password.matches(specialCharacters)) {
+	              return true;
+	          }
+	      }
 	public static void main(String[] args) {
 		
 	}
