@@ -6,7 +6,7 @@ public class PasswordTester {
 	      String uppercase = "[A-Z]";
 	      String lowercase = "[a-z]";
 	      String digit = "\\d";
-	      String specialChar = "[!@#$%^&*]";
+	      String specialCharacters = " !\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~";
 	}
 	public static void main(String[] args) {
 		
