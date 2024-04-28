@@ -21,7 +21,7 @@ public class PasswordTester {
 	      }
 	
     public static void main(String[] args) {
-        String password = "MyP@ssw0rd";
+        String password = "dsfjdsfjsdfAHAHHD??!";
         if (isGoodPassword(password)) {
             System.out.println(password + " ist ein gutes Passwort.");
         } else {
