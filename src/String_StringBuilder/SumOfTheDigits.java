@@ -35,7 +35,8 @@ public class SumOfTheDigits {
 	}
 	
 	public static void main(String[] args) {
+		System.out.println(digitSum(10));
+		System.out.println(digitSum("10"));
 
-	}
 	}
 }
