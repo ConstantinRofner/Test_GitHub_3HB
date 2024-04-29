@@ -17,10 +17,14 @@ public class HTMLStrings {
 	}
 	
 	public static String strong(String str) {
-		
+		return htmlElement("strong", str);
+	}
+	
+	public static String emphasized(String str) {
+		return htmlElement("em", str);
 	}
 	
 	public static void main(String[] args) {
-		System.out.println(htmlElement("null", "Eins"));
+		System.out.println(htmlElement("", "Eins"));
 	}
 }
