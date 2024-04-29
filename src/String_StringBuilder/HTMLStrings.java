@@ -16,6 +16,10 @@ public class HTMLStrings {
 		}
 	}
 	
+	public static String strong(String str) {
+		
+	}
+	
 	public static void main(String[] args) {
 		System.out.println(htmlElement("null", "Eins"));
 	}
