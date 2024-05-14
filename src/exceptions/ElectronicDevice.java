@@ -17,6 +17,10 @@ public class ElectronicDevice {
 		return watt;
 	}
 	public void setWatt(int watt) {
-		this.watt = watt;
+		if(watt > 0) {
+			this.watt = watt;
+		}else {
+			throw new IllegalWattException();
+		}
 	}
 }
