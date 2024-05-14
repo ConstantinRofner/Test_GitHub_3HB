@@ -25,6 +25,8 @@ public class HTMLStrings {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println(htmlElement("", "Eins"));
+		System.out.println(htmlElement("Rand", "Eins"));
+		System.out.println(strong("Hallo"));
+		System.out.println(strong(emphasized("Test")));
 	}
 }
