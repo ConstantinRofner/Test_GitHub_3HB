@@ -13,7 +13,7 @@ public class ReadNotes {
     public static void main(String[] args) {
     	Scanner sc;
     	try {
-    		sc = new Scanner(Paths.get("file.txt"));
+    		sc = new Scanner(Paths.get("TestNotes.txt"));
     		while(sc.hasNextLine());{
     			System.out.println(sc.nextLine() + " ");
     		}
