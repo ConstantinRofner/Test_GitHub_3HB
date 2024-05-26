@@ -1,5 +1,6 @@
 package exceptions;
 
+import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.Scanner;
 
@@ -12,6 +13,8 @@ public class Notes {
     		while(sc.hasNextLine());{
     			System.out.println(sc.nextLine() + " ");
     		}
+    	}catch(IOException e) {
+    		e.printStackTrace();
     	}
     }
 }
