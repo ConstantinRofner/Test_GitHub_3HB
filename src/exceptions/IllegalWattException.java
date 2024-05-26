@@ -1,5 +1,4 @@
 package exceptions;
 
-public class IllegalWattException extends RuntimeException{
-	
+public class IllegalWattException extends RuntimeException{	
 }
